@@ -1,2 +1,5 @@
 Pipfile.lock
 LittleLemon/db.sqlite3
+.vscode
+LittleLemon/LittleLemon/__pycache__
+vscode.session.sql
