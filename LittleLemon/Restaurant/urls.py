@@ -11,5 +11,6 @@ urlpatterns = [
     path('booking/', include(router.urls)), 
     path("menu/", MenuItemView.as_view(), name=""),
     path("menu/<int:pk>", SingleMenuItemView.as_view(), name=""),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')) 
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')) ,
+    path("message/", msg, name=""),
 ]
